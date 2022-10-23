@@ -180,9 +180,7 @@ def avalanche2():
     diffBits = 0
 
     ctr = 0
-    # For every 16 bit plaintext
     for plaintext in plainT:
-        # For every key from above key
         for key in keys:
             C = encrypt2(plaintext , key)
            
